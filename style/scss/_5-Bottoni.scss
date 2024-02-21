@@ -1,0 +1,25 @@
+@mixin button-style1 {
+  background-color: $button1;
+  color: $textColor;
+  padding: 10px 20px;
+  border: none;
+  @include floating;
+  cursor: pointer;
+  margin-right: 10px;
+}
+@mixin button-style2 {
+  background-color: $button2;
+  color: $textColor;
+  padding: 10px 20px;
+  @include floating;
+  cursor: pointer;
+  margin-right: 10px;
+}
+@mixin button-style3 {
+  background-color: $button3;
+  color: $textColor;
+  padding: 10px 20px;
+  @include floating;
+  cursor: pointer;
+  margin-right: 10px;
+}

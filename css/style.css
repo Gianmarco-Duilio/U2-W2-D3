@@ -1,0 +1,100 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #bebebe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 100px;
+  margin: 15px;
+}
+
+div a {
+  margin: 15px;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #640fc5;
+  margin: 20px;
+  border-radius: 10px;
+  color: #f4f4f4;
+  margin-block: 50px;
+}
+
+.heroSectionText {
+  padding: 10px;
+  width: 100%;
+}
+
+.buttonHero :nth-child(1) {
+  background-color: #0e6cff;
+  background-color: #0e6cff;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.buttonHero :nth-child(2) {
+  background-color: #ff8700;
+  background-color: #ff8700;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.buttonHero :nth-child(3) {
+  background-color: #4caf50;
+  background-color: #4caf50;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.imgHero img {
+  width: 95%;
+  border-radius: 10px;
+}
+
+.griglia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.griglia div {
+  padding: 10px;
+}
+
+.griglia img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

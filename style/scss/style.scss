@@ -1,0 +1,72 @@
+@import "1-Reset";
+@import "2-colori";
+@import "3-Font";
+@import "4-Spaziature";
+@import "5-Bottoni";
+@import "6-Mixins-generici";
+@import "7-animazioni";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+nav {
+  background-color: #bebebe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+  margin: 15px;
+}
+div a {
+  margin: 15px;
+  text-decoration: none;
+  color: $textColor;
+}
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $sfondo;
+  margin: 20px;
+  border-radius: 10px;
+  color: $textColor;
+  margin-block: 50px;
+}
+.heroSectionText {
+  padding: 10px;
+  width: 100%;
+}
+.buttonHero :nth-child(1) {
+  background-color: $button1;
+  @include button-style1;
+}
+.buttonHero :nth-child(2) {
+  background-color: $button2;
+  @include button-style2;
+}
+.buttonHero :nth-child(3) {
+  background-color: $button3;
+  @include button-style3;
+}
+.imgHero img {
+  width: 95%;
+  border-radius: 10px;
+}
+.griglia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.griglia div {
+  padding: 10px;
+}
+.griglia img {
+  width: 100%;
+  border-radius: 10px;
+}
