@@ -7,15 +7,19 @@
 @import "7-animazioni";
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
+  font-family: $font-family;
+  @include reset;
+  font-size: $fon-size;
 }
 nav {
-  background-color: #bebebe;
+  background-color: $sfondo;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+h1 {
+  @include titolo;
 }
 nav img {
   width: 100px;
@@ -35,7 +39,6 @@ div a {
   margin: 20px;
   border-radius: 10px;
   color: $textColor;
-  margin-block: 50px;
 }
 .heroSectionText {
   padding: 10px;
@@ -53,9 +56,13 @@ div a {
   background-color: $button3;
   @include button-style3;
 }
+.imgHero {
+  padding: 20px;
+}
 .imgHero img {
-  width: 95%;
+  width: 80%;
   border-radius: 10px;
+  @include floating;
 }
 .griglia {
   display: flex;
@@ -64,9 +71,10 @@ div a {
   justify-content: space-around;
 }
 .griglia div {
-  padding: 10px;
+  padding: 30px;
 }
 .griglia img {
   width: 100%;
   border-radius: 10px;
+  @include floating;
 }

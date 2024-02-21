@@ -1,7 +1,7 @@
 $font-family: Verdana, Geneva, Tahoma, sans-serif;
 $fon-size: 15px;
 
-@mixin titolo($titolo: rgb(255, 255, 255)) {
-  box-shadow: 0 0 1px rgba($titolo, 0.25);
-  color: #5e5e5e;
+@mixin titolo {
+  font-size: 40px;
+  color: #ffffff;
 }
